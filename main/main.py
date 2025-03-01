@@ -28,7 +28,7 @@ def food(snake_body):
 def game():
     pass
 
-def star_game(bool = False):
+def start_game(bool = False):
 
     title_snake_pos = [100, 150]
     title_snake_body = [[100, 150], [90, 150], [80, 150]]
@@ -164,6 +164,6 @@ def game():
 
         pygame.display.flip()
 
-    star_game(True)
+    start_game(True)
 
-star_game()
+start_game()
